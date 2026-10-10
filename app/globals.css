@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #0D0B0A;
+  color: #AFA393;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #10B981;
+  color: #0D0B0A;
+}
+
+.font-display {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.editorial-card {
+  background-color: #191512;
+  border: 1px solid #2B241F;
+  border-radius: 12px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.editorial-card:hover {
+  border-color: #3D342C;
+  background-color: #1D1815;
+}
+
+.editorial-card-elevated {
+  background-color: #211C18;
+  border: 1px solid #362D26;
+  border-radius: 12px;
+}
